@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    width: 960px;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 250px;
+    margin: auto; 
+}
+#header-image{
+    background-image: url('../images/book.png');
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+}
+.menu-item{
+    background-color: rgb(146, 92, 54);
+    color: rgb(255, 246, 230);
+    font-weight: bold;
+    height: 50px;
+    width: 160px;
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.menu-item:hover{
+    background-color: rgba(223, 147, 33, 0.856);
+}
+.login{
+    margin-top: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 275px;
+    border: solid black 1px;
+}
+#registerlink{
+    margin-top: 40px;
+}
+.register{
+    height: 300px;
+}
+#form-logout{
+    margin: 0;
+}
+#bookForm{
+    border: 2px solid black;
+    width: 190px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.bookInput{
+    display: block;
+    margin-top: 10px;
+}
+.book{
+    border: 2px solid black; 
+    width: 250px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 40px;
+    float: left;
+}
+.book:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 20px rgba(201, 129, 34, 0.801);
+}
